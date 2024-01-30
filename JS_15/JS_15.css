@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+#header{
+    margin: 0;
+    width: 24%;
+    margin-left: 38%;
+    height: 10vh;
+    background-color: rgb(93, 5, 5);
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header:hover{
+    cursor: pointer;
+}
+
+
+.rij{
+    text-align: center;
+    display: flex;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
