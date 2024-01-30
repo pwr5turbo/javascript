@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorgame</title>
+    <link rel="stylesheet" href="color.css">
+    <script src="color.js"></script>
+</head>
+<body>
+    <div id="secondBody">
+        <div id="settings">
+            <label for="loops">Aantal loops</label><br>
+            <input type="number" id="loops" max="100" min="1" value="10"><br>
+            <label for="sec">aantal sec per loop</label>
+            <input type="number" id="sec" max="10" min="1" value="1"><br>
+            <label for="kleuraantal">Aantal blokjes</label>
+            <input type="number" id="kleuraantal" min="9" max="18" value="9">
+        </div>
+        <div id="color_div">
+            <div class="color" id="color1" onclick="check(1)" >
+                1
+            </div>
+            <div class="color" id="color2" onclick="check(2)" >
+                2
+            </div>
+            <div class="color" id="color3" onclick="check(3)" >
+                3
+            </div>
+            <div class="color" id="color4" onclick="check(4)" >
+                4
+            </div>
+            <div class="color" id="color5" onclick="check(5)" >
+                5
+            </div>
+            <div class="color" id="color6" onclick="check(6)" >
+                6
+            </div>
+            <div class="color" id="color7" onclick="check(7)" >
+                7
+            </div>
+            <div class="color" id="color8" onclick="check(8)" >
+                8
+            </div>
+            <div class="color" id="color9" onclick="check(9)"  >
+                9
+            </div>
+            <div id="basiskleur">Basiskleur</div>
+            <button id="start" class="btn" onclick="start('loop')">Start</button>
+            <button id="stop" class="btn" onclick="stop()">Stop</button>
+            <button id="showColors" class="btn" onclick="reset()">reset score</button>
+        </div>
+        <div id="test_div">
+            <h3>Test_div</h3>
+            <p>Aantal goed: <span id="goed">0</span></p>
+            <p>Aantal fout: <span id="fout">0</span></p>
+        </div>
+    </div>
+</body>
+</html>

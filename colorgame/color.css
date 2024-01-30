@@ -1,0 +1,79 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+
+#secondBody{
+    display: flex;
+    justify-content: center;
+}
+
+.color{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    border: 1px solid rgba(255, 11, 11, 0.247);
+}
+
+#color_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 162px;
+    border: 1px black solid;
+    padding: 10px;
+}
+
+#basiskleur{
+    background-color: gray;
+    width: 100%;
+    height: 5vh;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btn{
+    border: none;
+    background-color: gray;
+    color: white;
+    width: 70px;
+    margin-top: 7px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#stop{
+    margin-left: 20px;
+}
+
+#test_div , #settings{
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+}
+
+#test_div{
+    margin-left: 20px;
+}
+
+#settings{
+    margin-right: 20px;
+}
+
+input{
+    text-align: center;
+}
+
+#settings, #color_div, #test_div  {
+    background-color: white;
+    border: 5px blue solid;
+}
